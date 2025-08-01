@@ -1,0 +1,9 @@
+torch
+torchvision
+stable-baselines3
+gym
+numpy
+pyspark
+psycopg2-binary
+jax
+jaxlib

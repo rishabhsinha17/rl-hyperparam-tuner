@@ -1,0 +1,26 @@
+{
+  "dashboard": {
+    "panels": [
+      {
+        "type": "graph",
+        "title": "Throughput",
+        "targets": [
+          {
+            "expr": "avg_over_time(run_metrics_throughput[1m])"
+          }
+        ]
+      },
+      {
+        "type": "graph",
+        "title": "Loss",
+        "targets": [
+          {
+            "expr": "avg_over_time(run_metrics_loss[1m])"
+          }
+        ]
+      }
+    ],
+    "title": "ResNet LR Tuner"
+  },
+  "overwrite": true
+}
